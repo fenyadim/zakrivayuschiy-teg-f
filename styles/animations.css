@@ -12,3 +12,21 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+@keyframes arrowMove {
+    to {
+        transform: translateX(-4px);
+    }
+}
+
+@keyframes scale-heart {
+    to {
+        transform: scale(1.5);
+    }
+}
+
+@keyframes opacity-sparks {
+    to {
+        opacity: 1;
+    }
+}

@@ -10,4 +10,8 @@
     --accent-color: #000;
     --gradient-strip-color: #d3d3d3;
     --gradient-background-colors: #e7e7e7, #1a1a1a;
+    --transition-time: 0.3s;
+    --button-font-color: #fff;
+    --contour-heart-color: #000;
+    --fill-heart-color: #FF0000;
 }
