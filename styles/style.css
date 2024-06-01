@@ -146,11 +146,35 @@
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    object-position: right;
+    object-position: center;
 }
 
 .card__image--saturate {
     filter: saturate(40%);
+}
+
+.card__image--multiply {
+    filter: saturate(50%) contrast(1.5);
+}
+
+.card__image--grayscale {
+    filter: grayscale(1);
+}
+
+.card__image--sepia {
+    filter: sepia(1);
+}
+
+.card__image--brightness {
+    filter: brightness(0.5);
+}
+
+.card__image--contrast {
+    filter: contrast(1.5);
+}
+
+.card__image--hue-rotate {
+    filter: hue-rotate(90deg);
 }
 
 .card__label {
