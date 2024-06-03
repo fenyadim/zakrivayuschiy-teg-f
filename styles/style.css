@@ -216,7 +216,7 @@
   display: flex;
   justify-content: right;
   align-items: center;
-  gap: 12px;
+  gap: 4px;
 }
 
 .card__icon-button {
@@ -379,7 +379,8 @@ dialog::backdrop {
 }
 
 .dialog__content {
-  display: flex;
+  display: grid;
+  grid-template-columns: min-content 1fr;
   align-items: center;
   gap: 20px;
   margin-block-end: 30px;
@@ -390,7 +391,6 @@ dialog::backdrop {
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
-  width: 232px;
 }
 
 .dialog__button {
@@ -413,6 +413,10 @@ dialog::backdrop {
   .floppy-icon:not(.dialog__icon) {
     width: 28px;
     height: 28px;
+  }
+
+  .dialog__wrapper {
+    padding: 30px 42px;
   }
 }
 
